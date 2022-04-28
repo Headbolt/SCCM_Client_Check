@@ -24,7 +24,7 @@ Write-Host
 Write-Host '###############################################################################################################'
 Write-Host
 $Path="c:\windows\ccmsetup\ccmsetup.exe"
-$PathTest=($Path)
+$PathTest=(Test-Path $Path)
 #
 Write-Host 'Checking For File' $Path	
 Write-Host
